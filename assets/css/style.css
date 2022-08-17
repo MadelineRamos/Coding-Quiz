@@ -1,0 +1,22 @@
+.scores  {
+
+}
+
+.timer {
+    float: right;
+}
+
+.start {
+    font-size: 20px;
+    text-align: center;
+}
+
+.start p {
+    margin: 0;
+}
+
+
+#start {
+    font-size: 20px;
+    margin-top: 20px;
+}
