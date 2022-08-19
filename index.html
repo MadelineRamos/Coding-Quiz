@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
-    <div class="scores"><a href="scores.html">View Highscores</a></div>
-
+    <header>
+    <div class="scores"><a href="scores.html">View high scores</a></div>
     <div class="timer">Time:  <span id="time">0</span></div>
+    </header>
 
     <div id="start-screen" class="start">
         <h1>Coding Quiz Challenge</h1>
@@ -20,5 +21,19 @@
         <p>by ten seconds!</p>
         <button id="start">Start Quiz</button>
     </div>
+
+    <div class="quiz" id="quiz-section">
+        <h1 id="question"></h1>
+        <button id="answer1"></button>
+        </br>
+        <button id="answer2"></button>
+        </br>
+        <button id="answer3"></button>
+        </br>
+        <button id="answer4"></button>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>

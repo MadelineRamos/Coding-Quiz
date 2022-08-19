@@ -1,9 +1,37 @@
-.scores  {
-
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-size: 20px;
 }
 
-.timer {
-    float: right;
+header a {
+    text-decoration: none;
+    color: plum;
+}
+
+header a:hover {
+    color: purple;
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+    padding-bottom: 300px;
+    border: solid black 2px;
+    border-radius: 10px;
+}
+
+body button {
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+}
+
+body button:hover {
+    background-color: plum;
 }
 
 .start {
@@ -15,8 +43,31 @@
     margin: 0;
 }
 
-
+/* start quiz button*/
 #start {
     font-size: 20px;
     margin-top: 20px;
 }
+
+#start-screen {
+    margin-top: 80px;
+}
+
+.quiz {
+    text-align: left;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 33%;
+}
+
+.quiz button {
+    border-radius: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    text-align: left;
+    font-size: 20px;
+    width: auto;
+}
+
