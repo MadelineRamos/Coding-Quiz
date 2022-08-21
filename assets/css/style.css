@@ -28,6 +28,7 @@ body button {
     border: none;
     background-color: purple;
     color: white;
+    white-space:nowrap;
 }
 
 body button:hover {
@@ -68,6 +69,92 @@ body button:hover {
     color: white;
     text-align: left;
     font-size: 20px;
-    width: auto;
+    width:calc(40% - 10px);
 }
 
+.result {
+    display: none;
+    border-top: 2px solid grey;
+    margin-top: 40px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: grey;
+    font-style: italic;
+}
+
+.end-screen {
+    text-align: left;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 33%;
+    font-size: 20px;
+}
+
+.end-screen h1 {
+    margin: 8px 0;
+}
+
+.end-screen p {
+    margin: 8px 0;
+}
+
+.initials {
+    display: flex;
+    margin: 5px 0;
+}
+
+.initials p {
+    white-space: nowrap;
+}
+
+#initials {
+    border-radius: 3px;
+    border-width: 1px;
+    height: 20px;
+    padding: 8px;
+    margin: 0 13px;
+    font-size: 20px;
+}
+
+.initials button {
+    border-radius: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    width:calc(40% - 10px);
+    height: fit-content;
+    padding: 5px 15px;
+    margin-top: 2px;
+}
+
+.high-scores {
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px 33%;
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.high-scores button {
+    border-radius: 8px;
+    border: none;
+    background-color: purple;
+    color: white;
+    font-size: 20px;
+    width:calc(40% - 10px);
+    height: fit-content;
+    padding: 5px 5px;
+    margin-top: 2px;
+}
+
+#go-back {
+    width:calc(25% - 10px);
+
+}
+
+.scores {
+    background-color: gray;
+}
