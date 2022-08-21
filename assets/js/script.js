@@ -119,5 +119,5 @@ submitButton.addEventListener("click",function(event) {
     var initials = document.querySelector("#initials");
 
     localStorage.setItem(initials.value.trim(), timer);
+    location.href = "scores.html";
 });
-

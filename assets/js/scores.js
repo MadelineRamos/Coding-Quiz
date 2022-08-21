@@ -1,4 +1,5 @@
 var clearScores = document.querySelector("#clear")
+var goBack = document.querySelector("#go-back");
 
 function highScores() {
 
@@ -25,3 +26,7 @@ window.onload = function() {
 }
 
 clearScores.addEventListener("click", clear);
+
+goBack.addEventListener("click", function() {
+    location.href = "index.html";
+});
