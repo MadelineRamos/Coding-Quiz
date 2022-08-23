@@ -16,6 +16,7 @@ This application is a coding quiz that give the user a series of questions that 
 
 ## Deployed Application:
 
-## https://madelineramos.github.io/Coding-Quiz/
+https://madelineramos.github.io/Coding-Quiz/
 
 ## Snapshot of Application:
+![Coding-Quiz-Start-Screen](https://user-images.githubusercontent.com/108437661/186286117-3c9b488d-abdf-47e9-bdf9-61deeefdaeca.png)
