@@ -7,13 +7,13 @@
     <title>Coding Quiz</title>
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
-
+<!--This is where the "View High Scores" link will be located as well as the timer--->
 <body>
     <header>
     <div class="scores"><a href="scores.html">View high scores</a></div>
     <div class="timer"><span id="time"></span></div>
     </header>
-
+<!--This is the start screen for the quiz-->
     <div id="start-screen" class="start">
         <h1>Coding Quiz Challenge</h1>
         <p>Try to answer the following code-related questions within the time limit.</p>
@@ -21,7 +21,7 @@
         <p>by ten seconds!</p>
         <button id="start">Start Quiz</button>
     </div>
-
+<!--This houses the questions ans answers for each question in the quiz-->
     <div class="quiz" id="quiz-section">
         <h1 id="question"></h1>
         <button id="answer1"></button>
@@ -33,7 +33,7 @@
         <button id="answer4"></button>
         <div class="result" id="result-section"></div>
     </div>
-
+<!--This houses the information for the "End Screen" of the quiz-->
     <div class="end-screen" id="end-of-quiz">
         <h1>All Done!</h1>
         <p id="finalscore"></p>

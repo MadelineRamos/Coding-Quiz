@@ -1,3 +1,4 @@
+/*header section*/
 header {
     display: flex;
     justify-content: space-between;
@@ -13,7 +14,9 @@ header a {
 header a:hover {
     color: purple;
 }
+/*header section end*/
 
+/*body section*/
 body {
     font-family: Verdana, sans-serif;
     margin: 20px;
@@ -39,7 +42,9 @@ body button {
 body button:hover {
     background-color: plum;
 }
+/*body section end*/
 
+/*start screen section*/
 .start {
     font-size: 20px;
     text-align: center;
@@ -58,7 +63,9 @@ body button:hover {
 #start-screen {
     margin-top: 80px;
 }
+/*start screen section end*/
 
+/*quiz section */
 .quiz {
     text-align: left;
     display: none;
@@ -76,6 +83,7 @@ body button:hover {
     font-size: 20px;
     width:calc(40% - 10px);
 }
+/*quiz section end*/
 
 .result {
     display: none;
@@ -86,7 +94,7 @@ body button:hover {
     color: grey;
     font-style: italic;
 }
-
+/*end screen section*/
 .end-screen {
     text-align: left;
     display: none;
@@ -133,7 +141,9 @@ body button:hover {
     padding: 5px 15px;
     margin-top: 2px;
 }
+/*end screen section end*/
 
+/*high scores section*/
 .high-scores {
     text-align: left;
     flex-direction: column;
@@ -164,3 +174,4 @@ body button:hover {
     background-color: rgb(211, 211, 211);
     padding: 5px;
 }
+/*high scores section end*/

@@ -1,6 +1,8 @@
+// Variables that are being pulled from HTML files
 var clearScores = document.querySelector("#clear")
 var goBack = document.querySelector("#go-back");
 
+// This function is how the scores are being saved/displayed on the scores.html page
 function highScores() {
 
     var numberOfScores = Object.keys(localStorage);
@@ -16,6 +18,7 @@ console.log(numberOfScores);
     }
 }
 
+// How to clear all sores that have been saved
 function clear() {
     localStorage.clear();
     location.reload();
